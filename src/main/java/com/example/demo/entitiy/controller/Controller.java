@@ -35,7 +35,7 @@ public class Controller {
             if (cliente.isPresent())
             {
                 resposity.deleteById(id);
-                return "Pedido de " + id + "deletado com sucesso! ";
+                return "Parabéns pedido de " + id + "deletado com sucesso! ";
             }else
             {
                 throw new Exception("Pedido inexistente");   //throw significa jogar
